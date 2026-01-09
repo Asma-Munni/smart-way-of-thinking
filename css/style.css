@@ -38,7 +38,9 @@
     border-radius: 4px;
     margin-right: 120px;
     border: none;
+    cursor: pointer;
 }
+
 .banner{
     background-image: url(../B13-A01-Knowledge-Vault/assets/hero-bg.png);
     text-align: center;
@@ -216,6 +218,7 @@
      background-color: #f7f6f2;
      text-align: center;
      padding: 80px 40px;
+     margin-bottom: 120px;
 }
 .thinking-container h3{
     font-size: 40px;
@@ -234,6 +237,36 @@
     color: #627382;
     margin-top: 16px;
 }
+footer{
+    max-width: 1600px;
+     width: 85%; 
+     margin: 0 auto;
+     background-color: #001931;
+}
+footer .social-links{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+}
+footer .social-links .footer-links p{
+   color: #ffffff;
+   margin-bottom: 16px;
+}
+footer .social-links .footer-links .social-icon .icon {
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 8px;
+}
+hr{
+    width: 85%;
+    margin: 0 auto;
+}
+  .reserve{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
 
 
 
