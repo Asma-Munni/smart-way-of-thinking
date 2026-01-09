@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+     font-family: "Inter", sans-serif;
+}
 
 
 .inter {
@@ -29,6 +32,7 @@
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 500;
+    color: #000000;
 
 }
  .btn{
@@ -39,6 +43,11 @@
     margin-right: 120px;
     border: none;
     cursor: pointer;
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: #30b868;
+    border: 1px solid #30b868;
 }
 
 .banner{
@@ -98,8 +107,15 @@
     border-radius: 4px;
     text-align: center;
     display: inline-flex;
+    cursor: pointer;
 
 }
+.banner-content .button .btn-1:hover{
+    background-color: #02905c;
+    color: #ffffff;
+    border: 1px solid #30b868;
+}
+
 .banner-content .button .btn-2{
     color: #ffffff;
     font-size: 16px;
@@ -112,6 +128,9 @@
      display: inline-flex;
      vertical-align: middle;
      
+}
+.banner-content .button .btn-2:hover{
+     background-color: #016801;
 }
  .card-container{
     max-width: 1600px;
@@ -178,8 +197,9 @@
 
 }
 .solution-container .solution-img{
-    max-height: 600px;
-    max-width: 600px;
+   /* max-height: 600px;
+    max-width: 600px;*/
+    width: 60%;
 
 }
 .solution-text{
