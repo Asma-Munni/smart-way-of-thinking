@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    max-width: 1600px;
-}
+
 
 .inter {
   font-family: "Inter", sans-serif;
@@ -16,6 +14,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+     max-width: 1600px;
 }
 .nav .logo{
     margin: 16px  120px;
@@ -40,4 +39,79 @@ body{
     margin-right: 120px;
     border: none;
 }
+.banner{
+    background-image: url(../B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    text-align: center;
+     max-width: 1600px;
+     width: 85%;
+     margin: 0 auto;
+     
+     
+}
+.banner .banner-content{
+    width: 85%;
+    margin: 120px 130px;
+    
+    
+}
+.banner-btn{
+    background-color: #ffffff;
+    color: #30b868;
+    border:none ;
+    border-radius: 16px;
+    padding: 8px 12px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-flex;
+    margin-bottom: 16px;
+    margin-top: 115px;
+}
+.banner-content h1{
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.banner-content h1 .green-text{
+    color: #30b868;
+}
+.banner-content p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+.banner-content .button{
+    display: inline-flex;
+    gap: 10px;
+    margin-bottom: 180px;
+}
+
+.banner-content .button .btn-1{
+    background-color: #30b868;
+    color: #ffffff;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-flex;
+
+}
+.banner-content .button .btn-2{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    background: transparent; 
+    border:1px solid #ffffff;
+    border-radius: 4px;
+     padding: 12px 16px;
+     cursor: pointer;
+     display: inline-flex;
+     vertical-align: middle;
+     
+}
+
+
+
+
 
