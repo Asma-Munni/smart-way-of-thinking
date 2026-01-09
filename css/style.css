@@ -204,6 +204,36 @@
 .solution-text .ideas .check-circle{
     text-align: center;
 }
+#thinking-section{
+    max-width: 1600px;
+     width: 85%; 
+     margin: 0 auto;
+}
+.thinking-container{
+    max-width: 1360px;
+     width: 85%; 
+     margin: 0 auto;
+     background-color: #f7f6f2;
+     text-align: center;
+     padding: 80px 40px;
+}
+.thinking-container h3{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.thinking-container .p-1{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 16px;
+}
+.thinking-container .p-2{
+     font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-top: 16px;
+}
 
 
 
