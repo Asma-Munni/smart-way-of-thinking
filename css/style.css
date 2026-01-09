@@ -124,7 +124,7 @@
     gap: 16px;
  }
 
-.card-heading h2{
+.common-heading{
     font-size: 48px;
     font-weight: bold;
     color: #001931;
@@ -165,6 +165,50 @@
     color: #627382;
     margin-bottom: 70px;
 }
+.solution-container{
+    display: flex;
+    gap:60px ;
+     max-width: 1600px;
+     width: 85%; 
+     margin: 0 auto;
+     
+    
+
+}
+.solution-container .solution-img{
+    max-height: 600px;
+    max-width: 600px;
+
+}
+.solution-text{
+    margin: 102px 60px;
+}
+.solution-text h5{
+    color: #30b868;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.solution-text .info{
+     font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.solution-text .ideas{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    
+}
+.solution-text .ideas .check-circle{
+    text-align: center;
+}
+
+
+
+
+
 
 
 
