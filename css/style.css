@@ -110,6 +110,10 @@
      vertical-align: middle;
      
 }
+ .card-container{
+    max-width: 1600px;
+     width: 85%; 
+}
 
 
 
